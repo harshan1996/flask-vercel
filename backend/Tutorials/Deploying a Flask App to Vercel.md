@@ -1,6 +1,6 @@
 
 # Deploying a Flask App to Vercel
-Below is the quick overview of deploying a flask app on [vercel](https://vercel.com/)
+Below is the quick overview of deploying a Flask app on [vercel](https://vercel.com/)
 
 
 
