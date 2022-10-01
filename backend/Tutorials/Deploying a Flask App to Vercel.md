@@ -71,7 +71,7 @@ GitRepository/
 ```
 
 ### Step-5
-* Click ```import``` option and in the ```Configure Project``` section you can see that the ```main/master``` is up for the production.If you intend to know how to change it click [here](#custom-production-branch)
+* Click ```import``` option and in the ```Configure Project``` section you can see that the ```main/master``` is up for the production.If you intend to know how to change it click [Custom Production Branch](#custom-production-branch)
 * You can change the ```PROJECT NAME``` if you wish or you can leave it as such.
 * But in the ```ROOT DIRECTORY``` make sure the folder which consists of ```index.py``` is selected.
 * In this example ```GitRepository``` by default is the root folder and that need to be changed to ```backend-flask``` because that is where the python run file ```index.py``` is located.So click the ```Edit``` button and select the ```backend-flask``` folder.
@@ -81,4 +81,5 @@ GitRepository/
 
 ## Custom Production Branch
 
-* In order to make any branch as ```production branch```, go to the GitHub repository and click ```Settings``` then select the ```Branches``` and in the ```Default branch``` change it to the desired branch.This is the branch that would be up at the time of Vercel deployment.
+* In order to make any branch as ```production branch```, go to the ```Project Settings``` and click ```Git``` then in the ```Production Branch``` type the name of the branch which is present in the Git repository and click ```save```.
+* Optionally a similar kind of settings can be found in the ```Domains``` section under the ```Project Settings``` which you can explore.
