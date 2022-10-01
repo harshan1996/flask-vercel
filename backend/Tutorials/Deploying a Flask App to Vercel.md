@@ -71,7 +71,7 @@ GitRepository/
 ```
 
 ### Step-5
-* Click ```import``` option and in the ```Configure Project``` section you can see that the ```main/master``` is up for the production.If you intend to know how to change it click [Custom Production Branch](#custom-production-branch)
+* Click ```import``` option and in the ```Configure Project``` section you can see that the ```main/master``` is up for the production.If you intend to know how to change it, check out [Custom Production Branch](#custom-production-branch)
 * You can change the ```PROJECT NAME``` if you wish or you can leave it as such.
 * But in the ```ROOT DIRECTORY``` make sure the folder which consists of ```index.py``` is selected.
 * In this example ```GitRepository``` by default is the root folder and that need to be changed to ```backend-flask``` because that is where the python run file ```index.py``` is located.So click the ```Edit``` button and select the ```backend-flask``` folder.
